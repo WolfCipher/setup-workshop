@@ -1,4 +1,6 @@
-
 from datetime import datetime
 
-print("Hello World! It is currently", datetime.now().strftime("%H:%M:%S"))
+name = "WolfCipher"
+name2 = "TuxieNight"
+
+print("Hello World! Our names are {name} and {name2}. It is currently", datetime.now().strftime("%H:%M:%S"))
